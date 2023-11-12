@@ -1,0 +1,44 @@
+{
+  "name": "simple-jest-mocker",
+  "version": "1.0.0",
+  "description": "A lightweight tool that helps you quickly mock your Jest tests",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsup",
+    "test": "jest --verbose --coverage --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nukami/simple-jest-mocker.git"
+  },
+  "keywords": [
+    "jest",
+    "mock",
+    "axios"
+  ],
+  "author": "Nukami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nukami/simple-jest-mocker/issues"
+  },
+  "homepage": "https://github.com/Nukami/simple-jest-mocker#readme",
+  "contributors": [
+    "Nukami (https://github.com/Nukami)"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.5.8",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3",
+    "rimraf": "^5.0.5",
+    "ts-jest": "^29.1.1",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+  }
+}
